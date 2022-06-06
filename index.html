@@ -10,7 +10,7 @@
     <title>Web Studio (Version 2.1)</title>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
@@ -22,14 +22,16 @@
             <!-- Навигация -->
             <a class="logo" href="./index.html"> <span class="web">Web</span>Studio</a>
             <ul class="site-nav list">
-                <li><a href="./index.html"><span class="current">Студия</span></a></li>
-                <li><a href="./portfolio.html">Портфолио</a></li>
-                <li><a href="/Контакты">Контакты</a></li>
+                <li class="item"><a href="./index.html"><span class="current">Студия</span></a></li>
+                <li class="item"><a href="./portfolio.html">Портфолио</a></li>
+                <li class="item"><a href="/Контакты">Контакты</a></li>
+            </ul>
+            
+            <ul class="list header-contacts">
+                <li class="item"><a href="mailto:nfo@devstudio.com" class="contacts">nfo@devstudio.com</a></li>
+                <li class="item"><a href="tel:+380961111111" class="contacts">+38 096 111 11 11</a></li>
             </ul>
             </nav>
-
-            <a href="mailto:nfo@devstudio.com" class="contacts">nfo@devstudio.com</a>
-            <a href="tel:+380961111111" class="contacts">+38 096 111 11 11</a>
         </div>
     </header>
 
@@ -44,23 +46,23 @@
         </section>
 
 <!-- Конкурентные преимущества -->
-        <section class="section">
+        <section class="section-features">
             <div class="container">
-                <h2 class="section-title">Конкурентные преимущества</h2>
+                <h2 class="section-title hide">Конкурентные преимущества</h2>
                 <ul class="features-list list">
-                    <li>
+                    <li class="item">
                         <h3 class="title">Внимание к деталям</h3>
                         <p class="description">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
                     </li>
-                    <li>
+                    <li class="item">
                         <h3 class="title">Пунктуальность</h3>
                         <p class="description">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
                     </li>
-                    <li>
+                    <li class="item">
                         <h3 class="title">Планирование</h3>
                         <p class="description">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
                     </li>
-                    <li>
+                    <li class="item">
                         <h3 class="title">Современные технологии</h3>
                         <p class="description">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                     </li>
@@ -73,10 +75,10 @@
         <section class="section">
             <div class="container">
                 <h2 class="section-title">Чем мы занимаемся</h2>
-                <ul class="list">
-                    <li><img src="./images/001.jpg" alt="Схема" width="370"></li>
-                    <li><img src="./images/002.jpg" alt="Ноутбук" width="370"></li>
-                    <li><img src="./images/003.jpg" alt="Палитра" width="370"></li>
+                <ul class="work list">
+                    <li class="item"><img src="./images/001.jpg" alt="Схема" width="370" height="294"></li>
+                    <li class="item"><img src="./images/002.jpg" alt="Ноутбук" width="370" height="294"></li>
+                    <li class="item"><img src="./images/003.jpg" alt="Палитра" width="370" height="294"></li>
                 </ul>
             </div>
         </section>
@@ -86,22 +88,22 @@
             <div class="container">
                 <h2 class="section-title">Наша команда</h2>
                 <ul class="team list">
-                    <li><img src="./images/004.jpg" alt="Демьяненок" width="270" class="team-img">
+                    <li class="item"><img src="./images/004.jpg" alt="Демьяненок" width="270" class="team-img">
                         <h3 class="title">Игорь Демьяненко</h3>
                         <p class="description">Product Designer</p>
                     </li>
 
-                    <li><img src="./images/005.jpg" alt="Репина" width="270" class="team-img">
+                    <li class="item"><img src="./images/005.jpg" alt="Репина" width="270" class="team-img">
                         <h3 class="title">Ольга Репина</h3>
                         <p class="description">Frontend Developer</p>
                     </li>
 
-                    <li><img src="./images/006.jpg" alt="Тарасов" width="270" class="team-img">
+                    <li class="item"><img src="./images/006.jpg" alt="Тарасов" width="270" class="team-img">
                         <h3 class="title">Николай Тарасов</h3>
                         <p class="description">Marketing</p>
                     </li>
 
-                    <li><img src="./images/007.jpg" alt="Ермаков" width="270" class="team-img">
+                    <li class="item"><img src="./images/007.jpg" alt="Ермаков" width="270" class="team-img">
                         <h3 class="title">Михаил Ермаков</h3>
                         <p class="description">UI Designer</p>
                     </li>
