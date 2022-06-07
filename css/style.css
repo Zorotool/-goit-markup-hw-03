@@ -100,8 +100,8 @@ h1, h2, h3, h4, h5, h6, ul, p {
 }
 .site-nav {
     display: flex;
-   margin-top: 32px;
-   margin-bottom: 32px;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .site-nav .item + .item {
@@ -153,7 +153,7 @@ h1, h2, h3, h4, h5, h6, ul, p {
     background: #2F303A;
     text-align: center;
     padding-top: 200px;
-    padding-bottom: 280px;
+    padding-bottom: 200px;
     height: 600px;
     }
 
@@ -186,10 +186,14 @@ h1, h2, h3, h4, h5, h6, ul, p {
 
 .features-list {
     display: flex;
+    }
+
+.features-list .item {
+    width: 270px;
 }
 
     .features-list .item + .item {
-        margin-left: 50px;
+        margin-left: 30px;
     }
         
 .features-list .title {
@@ -245,15 +249,15 @@ margin-bottom: 30px;
 }
 
 .section-projects {
-    margin-top: 94px;
-    margin-bottom: 94px;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 /* Фильтр проектов */
 .filtres {
 display: flex;
 justify-content: center;
-margin-bottom: 34px;
+margin-bottom: 50px;
 margin-right: 8px;
 }
 
@@ -282,13 +286,22 @@ margin-right: 8px;
 
 .projects {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap;    
 }
+
+.projects img {
+    display: block;
+}
+
 .projects .item {
 width: 370px;
-border-bottom: solid 1px #EEEEEE;
 margin-right: 30px;
 margin-bottom: 30px;
+}
+
+.item-text {
+border: solid 1px #EEEEEE;
+padding: 20px 24px;
 }
 
 .projects .item:nth-child(3n) {
